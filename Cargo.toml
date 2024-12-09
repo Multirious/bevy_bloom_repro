@@ -1,0 +1,17 @@
+[package]
+name = "bevy_rendering_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.bevy]
+version = "0.15"
+default-features = false
+features = [
+  "bevy_window",
+  "bevy_winit",
+  "bevy_core_pipeline",
+  "bevy_sprite",
+  "hdr",
+  "tonemapping_luts",
+  "png",
+]
